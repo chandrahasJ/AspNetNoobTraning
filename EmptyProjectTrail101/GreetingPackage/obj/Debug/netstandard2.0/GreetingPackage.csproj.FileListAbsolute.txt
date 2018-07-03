@@ -1,0 +1,9 @@
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\GreetingPackage\bin\Debug\netstandard2.0\GreetingPackage.deps.json
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\GreetingPackage\bin\Debug\netstandard2.0\GreetingPackage.dll
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\GreetingPackage\bin\Debug\netstandard2.0\GreetingPackage.pdb
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\GreetingPackage\obj\Debug\netstandard2.0\GreetingPackage.csprojResolveAssemblyReference.cache
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\GreetingPackage\obj\Debug\netstandard2.0\GreetingPackage.csproj.CoreCompileInputs.cache
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\GreetingPackage\obj\Debug\netstandard2.0\GreetingPackage.AssemblyInfoInputs.cache
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\GreetingPackage\obj\Debug\netstandard2.0\GreetingPackage.AssemblyInfo.cs
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\GreetingPackage\obj\Debug\netstandard2.0\GreetingPackage.dll
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\GreetingPackage\obj\Debug\netstandard2.0\GreetingPackage.pdb

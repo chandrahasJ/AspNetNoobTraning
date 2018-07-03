@@ -1,0 +1,11 @@
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\bin\Debug\netcoreapp2.0\AspnetCoreMiddleWare.deps.json
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\bin\Debug\netcoreapp2.0\AspnetCoreMiddleWare.runtimeconfig.json
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\bin\Debug\netcoreapp2.0\AspnetCoreMiddleWare.runtimeconfig.dev.json
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\bin\Debug\netcoreapp2.0\AspnetCoreMiddleWare.dll
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\bin\Debug\netcoreapp2.0\AspnetCoreMiddleWare.pdb
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\obj\Debug\netcoreapp2.0\AspnetCoreMiddleWare.csprojAssemblyReference.cache
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\obj\Debug\netcoreapp2.0\AspnetCoreMiddleWare.csproj.CoreCompileInputs.cache
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\obj\Debug\netcoreapp2.0\AspnetCoreMiddleWare.AssemblyInfoInputs.cache
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\obj\Debug\netcoreapp2.0\AspnetCoreMiddleWare.AssemblyInfo.cs
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\obj\Debug\netcoreapp2.0\AspnetCoreMiddleWare.dll
+M:\VSCode\CShrapProjects\AspnetCoreMiddleWare\obj\Debug\netcoreapp2.0\AspnetCoreMiddleWare.pdb

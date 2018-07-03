@@ -1,0 +1,12 @@
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\bin\Debug\netcoreapp2.0\introAspNetModule3.deps.json
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\bin\Debug\netcoreapp2.0\introAspNetModule3.runtimeconfig.json
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\bin\Debug\netcoreapp2.0\introAspNetModule3.runtimeconfig.dev.json
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\bin\Debug\netcoreapp2.0\introAspNetModule3.dll
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\bin\Debug\netcoreapp2.0\introAspNetModule3.pdb
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\obj\Debug\netcoreapp2.0\introAspNetModule3.csprojResolveAssemblyReference.cache
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\obj\Debug\netcoreapp2.0\introAspNetModule3.csproj.CoreCompileInputs.cache
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\obj\Debug\netcoreapp2.0\introAspNetModule3.AssemblyInfoInputs.cache
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\obj\Debug\netcoreapp2.0\introAspNetModule3.AssemblyInfo.cs
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\obj\Debug\netcoreapp2.0\introAspNetModule3.dll
+M:\MVA\AspNetNoobTraning\introAspNetModule3\introAspNetModule3\obj\Debug\netcoreapp2.0\introAspNetModule3.pdb

@@ -1,0 +1,54 @@
+﻿Scaffolding
+1) It provides a Jumpstart while development later we have to manage the code
+
+Tag Helpers
+1)  asp-action = "<Action Method Name>" 
+
+Migarations
+1) Left Intentionally
+2) If you are using VSCode\Notepad etc.. and you have to run Entity Framework then 
+   you need to add a EF tool same as you did for watching files
+   <DotNetCliReferenceTool Include="Microsoft.EntityFrameworkCore.Tools.Dotnet" Version="2.0.0"/>
+   Then in Command Line we will be able to use below command
+   > dotnet ef migrations add [migration name] 
+   > dotnet ef database update
+3) If you are using  Package Console Manager - then
+	Add-migration initial 
+	As we are having two DB context we must specify the name of the DB context
+	Error Message : More than one DBContext Found. 
+4) Add-Migration <MigrationName> -Context <DBContextName>
+	-Context -> Used as If we have more than one DBContext We can pass the DBContextName
+	Creates new migration scripts which contains Columns information etc
+5) Update-Database <MigrationName>	-Context <DBContextName>
+	Above Command Updates\Creates the database with the migration script created using "Add-Migration"
+6) Adding Anotation on POCO Model, we can add validation on the database model.
+	 [DisplayName()],[Required],[Range(0,N)],[StringLength(N)],[RegularExpressions(@"\d+")] and many more
+	 We must add these Anotations above the POCO variables 
+	 [Required]
+	 public int Name {get; set; }
+	 The Above will not allow users to save a empty Name.
+7) After adding the above Data Annotations in the POCO model we must always add migrations & update the database.
+8) Model Binding 
+	When a Post Request is sent to controller from View(via User Actions), 
+	We can process those post request directly by adding Model in the Arguments of the Action Name
+	As shown below
+	[HttpPost]
+	public async Task<IActionResult> Create(Album album) --This will dynamically bind all the post request to Album Model 
+			OR
+	[HttpPost]
+	public async Task<IActionResult> Create([Bind("ID,Artist,Name,Genre,ReleaseDate,Price")] Album album) 
+	-- This will dynamically bind only those attribute specficed in the BindAttribute parameter
+	-- If for say we have added Rank in the view & Model 
+	-- but haven't speficied it inside the BindAttribute parameter it will not bind to AlbumModel
+	-- To Bind it we have it add it in the BindAttribute
+	[HttpPost]
+	public async Task<IActionResult> Create([Bind("ID,Artist,Name,Genre,ReleaseDate,Price,Rank")] Album album) 
+9)	Adding New Attribute in Model , We have to reshape/optimize/change the views(TAGS) & controllers(BindAttribute parameters)
+10  USER -> VIEW -> POST DATA -> CONTROLLER-> ACTION -> 
+	Manipulate MODEL-> UPDATES DATABASE -> Manipulated MODEL -> GET DATA
+	-> View -> USER
+
+	
+
+
+

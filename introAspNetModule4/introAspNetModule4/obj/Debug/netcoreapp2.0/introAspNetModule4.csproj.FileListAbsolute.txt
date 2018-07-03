@@ -1,0 +1,12 @@
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\bin\Debug\netcoreapp2.0\introAspNetModule4.deps.json
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\bin\Debug\netcoreapp2.0\introAspNetModule4.runtimeconfig.json
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\bin\Debug\netcoreapp2.0\introAspNetModule4.runtimeconfig.dev.json
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\bin\Debug\netcoreapp2.0\introAspNetModule4.dll
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\bin\Debug\netcoreapp2.0\introAspNetModule4.pdb
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\obj\Debug\netcoreapp2.0\introAspNetModule4.csprojResolveAssemblyReference.cache
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\obj\Debug\netcoreapp2.0\introAspNetModule4.csproj.CoreCompileInputs.cache
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\obj\Debug\netcoreapp2.0\introAspNetModule4.AssemblyInfoInputs.cache
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\obj\Debug\netcoreapp2.0\introAspNetModule4.AssemblyInfo.cs
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\obj\Debug\netcoreapp2.0\introAspNetModule4.dll
+M:\MVA\AspNetNoobTraning\introAspNetModule4\introAspNetModule4\obj\Debug\netcoreapp2.0\introAspNetModule4.pdb

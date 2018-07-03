@@ -1,0 +1,13 @@
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\bin\Debug\netcoreapp2.0\EmptyProjectTrail101.deps.json
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\bin\Debug\netcoreapp2.0\EmptyProjectTrail101.runtimeconfig.json
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\bin\Debug\netcoreapp2.0\EmptyProjectTrail101.runtimeconfig.dev.json
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\bin\Debug\netcoreapp2.0\EmptyProjectTrail101.dll
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\bin\Debug\netcoreapp2.0\EmptyProjectTrail101.pdb
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\obj\Debug\netcoreapp2.0\EmptyProjectTrail101.csprojResolveAssemblyReference.cache
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\obj\Debug\netcoreapp2.0\EmptyProjectTrail101.csproj.CoreCompileInputs.cache
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\obj\Debug\netcoreapp2.0\EmptyProjectTrail101.AssemblyInfoInputs.cache
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\obj\Debug\netcoreapp2.0\EmptyProjectTrail101.AssemblyInfo.cs
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\obj\Debug\netcoreapp2.0\EmptyProjectTrail101.dll
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\obj\Debug\netcoreapp2.0\EmptyProjectTrail101.pdb
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\bin\Debug\netcoreapp2.0\GreetingPackage.dll
+M:\MVA\AspNetNoobTraning\EmptyProjectTrail101\EmptyProjectTrail101\bin\Debug\netcoreapp2.0\GreetingPackage.pdb

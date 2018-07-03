@@ -1,0 +1,69 @@
+﻿// Routing 
+
+1) Startup.cs
+	services.UseMVC(
+		routes => {
+			routes.MapRoute(
+				name : "Default",
+				template : "{Controller=Home}/{Action=Index}/{?ID}"
+			)
+		});
+   Controller = Home   {Controller only manages the work Talking to View & Model}
+   Action Method = Index 
+   Optional ID = Can be anything
+
+   Let say 
+   https://cj.com/Home/Index/7
+
+// MVC 
+
+1) Users click on the URL/Button i.e. http://cj.com/product/add/1
+2) Routing then calls the Product controller
+3) In Product Controller,Action is called (Add) and Data Manipulation(Model) takes place i.e. Adding data in the model
+4) Model gets updated, This model is then provided to view or say view is called. 
+5) User then can view the updated Model
+
+//Routes
+
+Greedy routes 
+-> Adding Attributes on Action it will supercedes default routes
+
+[HttpGet("/")]
+public string Index() => "Hello from Cj's Movies";
+-> HttpGet("/")  calling this url on ticket controller it will call http://cj.com/
+Hello from Cj's Movies
+-> HttpGet("/tix")  calling this url on ticket controller it will call http://cj.com/tix
+Hello from Cj's Movies
+
+View
+[HttpGet("/tix")]
+public IActionResult Index()
+{
+    return View();
+}
+
+// Running it will give us below error
+
+InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Tickets/Index.cshtml
+/Views/Shared/Index.cshtml
+
+1) We must Add a view in the Tickets folder inside the Views Folder
+2) View Name should be similar to Action Method
+3) _ViewStart.cshtml calls _Layout.cshtml
+4) _Layout.cshtml contains the page layout
+
+//Models
+
+1) Models are POCO(Plain Old Class Object)
+2) We can pass Models into Views then we can use those strongly typed models in the Razor Page
+3) To Add a strongly typed model into the view
+	Step 1) In Controllers, Action Method add return View(<Strongly Typed Model>);
+	Step 2) Add Imports @model <Namespace of the Model>
+	Step 3) To use Strongly Typed Model, we must use @Model.<VaraibleName>
+4) @model for importing the strongly typed Model (small m)
+5) @Model for using the Strongly Typed Models (Big M)
+6) Model is passed into view in different forms i.e. ViewData, ViewBag , Strongly Typed Models etc..
+
+Razor Pages
+1) It can deterimine which is executable code & what is plain text
