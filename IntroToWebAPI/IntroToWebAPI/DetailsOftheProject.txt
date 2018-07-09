@@ -1,0 +1,127 @@
+﻿1) ApiController have been integrated in the Controller itself.
+2) Controller -> 
+	Minmmal Dependenices -> No Script Libary,Razor Pages, Error Pages etc. Perfect for Web API
+	Full Dependenices ->  Script Library , Razor Pages, Error Pages etc. will be added for Creating Web Applications
+3) Route Attribute -> it is added above the controller class. 
+	Syntax : [Route("api/<ControllerName/WhatEverYouLike>")]
+	We can specify URLs like below
+	1) [Route("api/ControllerName")] i.e. [Route("api/Products")] 
+	2) [Route("ControllerName")] i.e. [Route("Products")] 
+		Above example will conflit with a page name if you have same page name & webapi name
+	3) Generic Type 
+		[Route("api/[Controller]")] i.e. it will take controller name automatically
+4) Routing can be added in Startup.cs
+5) Produces Attribute -> [Produces("application/json")]
+	By Default "most" of the Web API returns JSON Object
+	Previously version of Asp.Net we have to use Formatters etc. 
+	Produces Attribute we can change the format from json to xmml etc.
+6)  Get function is default
+	In Route Attribute. If you have not speficied Get By Default if you call the Web Api
+	It will call Get Method
+	http://localhost/api/products will call get method
+7) If you don't specify http action attribute on the methods of WebApi 
+	it can be called via GET & POST both
+8) We can Change by Default Launch URL from Properties -> Debug -> Launch URL 
+9) Adding [HttpGet] on the Web Api Method will restrict it to only Get Calls
+	If you try post data to this kind of Method it will give you "404 Not Found" Error.
+10) If you have a Web Api Method will arguments then we should specfiy it in the Action Method Attribute
+	[HttpGet]
+	private string Get(int id) => return ""+id;
+	The Above will be not called until we specify it in route capturing parameter as shown below
+	[HttpGet("{id}")] // capture route parameter.
+	private string Get(int id) => return ""+id;
+11) 404 Not Found -> Requested URL was not found
+	200 Ok -> Requested URL was found and you will get the data requested/posted etc.
+	204 No Content -> Requested URL was found but it didn't returned anything.
+12) NotFound(),Ok(ObjectName) Method are provided by inherted Controller class
+13) To use NotFound(),Ok(ObjectName) Method we must have a return type as IActionResult
+14) IActionResult will leverage us to send User-Defined Payloads & NotFound()/BadRequest()/NoContent()/Ok(ObjectName) Payload.
+	If user wants to manupiulate Return Type Data(PayLoads) then it gives us upperhand leverage.
+15) If user needs to Post data we have to add HttpPost Action Attribute.	
+	http://localhost/api/products/ will by default call Post()
+	[HttpPost()] //Action Method Attribute
+	public void Post(	
+			[FromBody]	// [From<Where>]  -> It Specifies From where the data has been sent.
+			<DataObject> <DataVariableName>){
+	}	
+16)	It is good pratice if the posted data is Complex Type we should specify [From<Where>] Data Annotations.
+17) PostMan -> Tool to ease out effort while testing Web API
+	If you are posting complex type data to web api 
+	We must speficy the Header -> Content-Type 
+	If we don't do so we will get ERROR -> "415 UnSupported Media Type"
+	FormData : 
+	{
+		"ID" : 5,
+		"Name" : "Mobile",
+		"Quantity" : 7
+	}
+18) "201 Created Response"
+	If we want to the user to known the data has been posted\Added to web api
+	We must use IActionResult with CreatedAtAction(ActionMethodName,RouteValue,Object) 
+	CreatedAtAction returns 201 Created Response.
+	Post The Data & Then It will Get that Data in Return
+	[HttpPost()] //Action Method Attribute
+	public void Post(	
+			[FromBody]	// [From<Where>]  -> It Specifies From where the data has been sent.
+			<DataObject> <DataVariableName>){
+			//Adding Data from Body to Database etc.
+			return CreatedAtAction(nameof(Get),
+										new {id = <DataVariableName>.ID},
+										<DataVariableName>
+								  );
+	}
+19) Validations -> Adding Data Annotation on the Model will help us to validate the data
+20) 400 Series error is user has done something wrong
+	500 Series error is Server issues
+21) ModelState.IsValid will be used to validate the data
+22) 400 Bad Request -> this.BadRequest("Message from WebApi");
+	[HttpPost()] //Action Method Attribute
+	public void Post(	
+			[FromBody]	// [From<Where>]  -> It Specifies From where the data has been sent.
+			<DataObject> <DataVariableName>){
+			if(!ModelState.IsValid){
+				//Payload will be "Model Data is invalid or something useful message"
+				return BadRequest("Model Data is invalid or something useful message");
+			}
+			//Adding Data from Body to Database etc.
+			// PayLoad will Return Data Added to Database etc.
+			return CreatedAtAction(nameof(Get),
+										new {id = <DataVariableName>.ID},
+										<DataVariableName>
+								  );
+	}
+23) If we Change Produces Attributes Parameter from "application/json" to "application/xml".
+	In .Net Core 1.0,We must add dependenices to the project "Formatters"
+	In .Net Core 2.0,We already have this below dependenicy
+	"Microsoft.AspNetCore.Formatters.Xml"
+24) In Starup.cs, ConfigureServices
+	We need to add below Code Snippets
+	services.AddMvc()
+			.AddXmlSerializerFormatters();
+25) Changing Produces, We can sent jpeg, pdf, text etc. to & fro in the Web API.
+26) We can define Consume Attribute on Web Api Method to tweak the Content Type
+	So Let Say We can consume json & produces xml
+	[Produces("application/xml")]
+	[Route("api/Products")]
+	public class <ControllerName>Controller : Controller
+	{
+		[Consumes("application/json")]
+		public IActionResult Post(Product product)
+		{
+			if(ModelState.IsValid == false){
+				return this.BadRequest("Model Data InValid");
+			}
+			//Code to Add the Data to DB etc.
+			return CreatedAtAction(nameOf(GET),
+								  new {id = product.ID},
+								  product)
+		}
+	}
+	
+	
+
+
+	
+
+
+	

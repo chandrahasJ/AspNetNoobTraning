@@ -1,0 +1,11 @@
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\bin\Debug\netcoreapp2.0\IntroToWebAPI.deps.json
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\bin\Debug\netcoreapp2.0\IntroToWebAPI.runtimeconfig.json
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\bin\Debug\netcoreapp2.0\IntroToWebAPI.runtimeconfig.dev.json
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\bin\Debug\netcoreapp2.0\IntroToWebAPI.dll
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\obj\Debug\netcoreapp2.0\IntroToWebAPI.csprojResolveAssemblyReference.cache
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\obj\Debug\netcoreapp2.0\IntroToWebAPI.csproj.CoreCompileInputs.cache
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\obj\Debug\netcoreapp2.0\IntroToWebAPI.AssemblyInfoInputs.cache
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\obj\Debug\netcoreapp2.0\IntroToWebAPI.AssemblyInfo.cs
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\bin\Debug\netcoreapp2.0\IntroToWebAPI.pdb
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\obj\Debug\netcoreapp2.0\IntroToWebAPI.dll
+M:\MVA\AspNetNoobTraning\IntroToWebAPI\IntroToWebAPI\obj\Debug\netcoreapp2.0\IntroToWebAPI.pdb
