@@ -1,0 +1,3 @@
+added useiisintergation in program,cs
+created a new  application pool with No manged code option
+install .NET Core Windows Server Hosting to add ASP.NET Core Module in module handlers

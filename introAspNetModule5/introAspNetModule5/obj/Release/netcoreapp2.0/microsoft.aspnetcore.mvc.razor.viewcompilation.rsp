@@ -1,0 +1,12 @@
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=introAspNetModule5
+--content-root=M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5
+--file=M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\Views\Home\About.cshtml
+--file=M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\Views\Home\Contact.cshtml
+--file=M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\Views\Home\Index.cshtml
+--file=M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\Views\Shared\Error.cshtml
+--file=M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\Views\Shared\_Layout.cshtml
+--file=M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\Views\Shared\_ValidationScriptsPartial.cshtml
+--file=M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\Views\_ViewImports.cshtml
+--file=M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\Views\_ViewStart.cshtml

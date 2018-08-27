@@ -1,0 +1,11 @@
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\bin\Release\netcoreapp2.0\introAspNetModule5.deps.json
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\bin\Release\netcoreapp2.0\introAspNetModule5.runtimeconfig.json
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\bin\Release\netcoreapp2.0\introAspNetModule5.runtimeconfig.dev.json
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\bin\Release\netcoreapp2.0\introAspNetModule5.dll
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\bin\Release\netcoreapp2.0\introAspNetModule5.pdb
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\obj\Release\netcoreapp2.0\introAspNetModule5.csprojResolveAssemblyReference.cache
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\obj\Release\netcoreapp2.0\introAspNetModule5.csproj.CoreCompileInputs.cache
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\obj\Release\netcoreapp2.0\introAspNetModule5.AssemblyInfoInputs.cache
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\obj\Release\netcoreapp2.0\introAspNetModule5.AssemblyInfo.cs
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\obj\Release\netcoreapp2.0\introAspNetModule5.dll
+M:\MVA\AspNetNoobTraning\introAspNetModule5\introAspNetModule5\obj\Release\netcoreapp2.0\introAspNetModule5.pdb
